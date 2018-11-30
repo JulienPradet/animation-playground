@@ -1,0 +1,13 @@
+.dropdown {
+    
+}
+.dropdown-trigger {
+
+}
+.dropdown-content {
+    height: 1px;
+    overflow: hidden;
+}
+.dropdown--opened .dropdown-content {
+    height: auto;
+}

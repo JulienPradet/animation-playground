@@ -1,0 +1,21 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.trigger {
+    display: block;
+    background: #fff;
+    color: #66F;
+    width: 100%;
+    border: none;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.card {
+    padding: 2em;
+    background: #fff;
+    color: #444;
+}

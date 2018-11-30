@@ -1,0 +1,23 @@
+.button-modal {
+  position: relative;
+}
+
+.button-modal--closing * {
+  pointer-events: none;
+}
+
+.button-modal__content__wrapper {
+  position: absolute;
+  overflow: hidden;
+  background: white;
+  color: black;
+}
+
+.button-modal__trigger {
+  background: white;
+  border: 0;
+  padding: 0.5em;
+}
+.button-modal__content {
+  position: absolute;
+}

@@ -1,0 +1,40 @@
+.card-wrapper {
+    min-width: 18em;
+}
+.card {
+    width: calc(100% - 2em);
+    height: calc(100% - 2em);
+    margin: 1em;
+    background: white;
+    backface-visibility: hidden;
+    box-shadow: 0 0.5em 1em rgba(100, 100, 100, 0.3);
+    border-radius: 0.5em;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.card-content {
+    padding: 1em 2em;
+}
+
+.card-image-wrapper {
+    position: relative;
+    border-radius: 0.5em 0.5em 0 0;
+    width: 100%;
+    height: 10em;
+    overflow: hidden;
+    text-align: center;
+}
+.card-image-wrapper img {
+    position: absolute;
+    width: calc(100% + 6em);
+    left: -3em;
+    transition: transform 0.5s ease-in-out 0s;
+}
+
+.card-wrapper.selected {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
