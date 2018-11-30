@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f0f0f0;
+  padding: 2em;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+  height: 3em;
+}
+.dropdown-title {
+  padding: 1em;
+  background: #ffffff;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  border: none;
+  outline: 0;
+}
+.dropdown-details {
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+  background: #ffffff;
+  padding: 1em;
+  width: 100%;
+  opacity: 0;
+}
+
+.dropdown.opened .dropdown-details {
+  top: 80%;
+  bottom: auto;
+  pointer-events: all;
+  opacity: 1;
+}
